@@ -137,6 +137,10 @@ export const api = {
     return apiFetch(`/projects/${projectId}/tasks`);
   },
 
+  getAllTasks: async (): Promise<Task[]> => {
+    return apiFetch("/tasks");
+  },
+
   createTask: async (projectId: string, task: Omit<Task, "id" | "status" | "projectId">): Promise<Task> => {
     return apiFetch(`/projects/${projectId}/tasks`, {
       method: "POST",
@@ -167,6 +171,10 @@ export const api = {
   // Deliverables Management
   getDeliverables: async (projectId: string): Promise<any[]> => {
     return apiFetch(`/projects/${projectId}/deliverables`);
+  },
+
+  getAllDeliverables: async (): Promise<any[]> => {
+    return apiFetch("/deliverables");
   },
 
   createDeliverable: async (projectId: string, payload: { name: string; uploadedBy: string; lod: string }): Promise<any> => {

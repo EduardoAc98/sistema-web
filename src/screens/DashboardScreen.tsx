@@ -159,15 +159,19 @@ export default function DashboardScreen({
 
   const calculateDynamicStats = async () => {
     try {
-      // Fetch deliverables and tasks for all projects in parallel
-      const deliverablesPromises = projects.map((p) => api.getDeliverables(p.id).catch(() => []));
-      const tasksPromises = projects.map((p) => api.getTasks(p.id).catch(() => []));
+      // BATCH FETCH OPTIMIZATION:
+      // Instead of N+1 calls per project, we fetch all data once.
+      // This reduces 2N calls to 2.
+      const [allDelivs, allTasks] = await Promise.all([
+        api.getAllDeliverables().catch(() => []),
+        api.getAllTasks().catch(() => [])
+      ]);
 
-      const delivsResults = await Promise.all(deliverablesPromises);
-      const tasksResults = await Promise.all(tasksPromises);
-
-      const flatDelivs = delivsResults.flat();
-      const flatTasks = tasksResults.flat();
+      // Filter data to only include items belonging to the current projects list
+      // This ensures statistics are accurate if the project list is ever filtered.
+      const projectIds = new Set(projects.map(p => p.id));
+      const flatDelivs = allDelivs.filter((d: any) => projectIds.has(d.projectId));
+      const flatTasks = allTasks.filter((t: any) => projectIds.has(t.projectId));
 
       // Calculation 1: Pending Deliverables count (status !== "APROBADO")
       const pendingCount = flatDelivs.filter(
