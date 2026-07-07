@@ -74,14 +74,18 @@ export default function ProjectsListScreen({
       try {
         if (!projects || projects.length === 0) return;
 
-        const tasksPromises = projects.map(p => api.getTasks(p.id).catch(() => []));
-        const delivPromises = projects.map(p => api.getDeliverables(p.id).catch(() => []));
-        
-        const allTasksLists = await Promise.all(tasksPromises);
-        const allDelivLists = await Promise.all(delivPromises);
-        
-        const allTasks = allTasksLists.flat();
-        const allDelivs = allDelivLists.flat();
+        // BATCH FETCH OPTIMIZATION:
+        // Instead of N+1 calls per project, we fetch all data once.
+        const [rawTasks, rawDelivs] = await Promise.all([
+          api.getAllTasks().catch(() => []),
+          api.getAllDeliverables().catch(() => [])
+        ]);
+
+        // Filter data to only include items belonging to the current projects list
+        // This ensures statistics are accurate if the project list is ever filtered.
+        const projectIds = new Set(projects.map(p => p.id));
+        const allTasks = rawTasks.filter((t: any) => projectIds.has(t.projectId));
+        const allDelivs = rawDelivs.filter((d: any) => projectIds.has(d.projectId));
 
         // Count projects with status: Planificación, En Curso, Entregables Pendientes (case-insensitive & mapped to system terms)
         const activeCount = projects.filter(p => {

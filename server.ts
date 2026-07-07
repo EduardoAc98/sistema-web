@@ -1208,6 +1208,15 @@ async function startServer() {
   });
 
   // REST API Task Management (RF-03)
+  app.get("/api/tasks", async (req, res) => {
+    try {
+      const tasks = await getDB_tasks();
+      res.json(tasks);
+    } catch (err: any) {
+      res.status(500).json({ error: err.message });
+    }
+  });
+
   app.get("/api/projects/:projectId/tasks", async (req, res) => {
     try {
       const { projectId } = req.params;
@@ -1326,6 +1335,15 @@ async function startServer() {
   }
 
   // REST API Deliverables Management (RF-04)
+  app.get("/api/deliverables", async (req, res) => {
+    try {
+      const deliverables = await getDB_deliverables();
+      res.json(deliverables);
+    } catch (err: any) {
+      res.status(500).json({ error: err.message });
+    }
+  });
+
   app.get("/api/projects/:projectId/deliverables", async (req, res) => {
     try {
       const { projectId } = req.params;
