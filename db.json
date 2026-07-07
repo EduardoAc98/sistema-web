@@ -1,0 +1,1439 @@
+{
+  "users": [
+    {
+      "id": "usr-1",
+      "username": "j.solis",
+      "password": "password123",
+      "name": "Arq. Javier Solis",
+      "discipline": "Gestión de Proyectos",
+      "email": "masterdt987@gmail.com",
+      "role": "Administrador",
+      "status": "Activo",
+      "lastConnection": "Hace 1 min",
+      "avatarInitials": "JS",
+      "avatarBg": "bg-amber-500"
+    },
+    {
+      "id": "usr-2",
+      "username": "l.mendoza",
+      "password": "password123",
+      "name": "Lucía Mendoza",
+      "discipline": "Gestión de Proyectos",
+      "email": "l.mendoza@gmpbim.com",
+      "role": "Gestor",
+      "status": "Activo",
+      "lastConnection": "Hace 3 horas",
+      "avatarInitials": "LM",
+      "avatarBg": "bg-blue-600"
+    },
+    {
+      "id": "usr-3",
+      "username": "c.vargas",
+      "password": "password123",
+      "name": "Carlos Vargas",
+      "discipline": "Modelado BIM",
+      "email": "c.vargas@gmpbim.com",
+      "role": "Colaborador",
+      "status": "Inactivo",
+      "lastConnection": "Ayer",
+      "avatarInitials": "CV",
+      "avatarBg": "bg-slate-400"
+    },
+    {
+      "id": "usr-4",
+      "username": "e.rojas",
+      "password": "password123",
+      "name": "Elena Rojas",
+      "discipline": "Arquitectura",
+      "email": "e.rojas@gmpbim.com",
+      "role": "Colaborador",
+      "status": "Activo",
+      "lastConnection": "Hace 45 min",
+      "avatarInitials": "ER",
+      "avatarBg": "bg-emerald-500"
+    },
+    {
+      "id": "usr-5",
+      "username": "a.gil",
+      "password": "password123",
+      "name": "Alex Gil",
+      "email": "a.gil@hotmail.com",
+      "role": "Colaborador",
+      "discipline": "Ingeniería Civil",
+      "status": "Inactivo",
+      "lastConnection": "Hace 1 min",
+      "avatarInitials": "AG",
+      "avatarBg": "bg-slate-500"
+    },
+    {
+      "id": "usr-6",
+      "username": "eduardo_ac98",
+      "password": "password123",
+      "name": "eduardo acosta",
+      "email": "eduardo_ac98@hotmail.com",
+      "role": "Colaborador",
+      "discipline": "Ingeniería Civil",
+      "status": "Inactivo",
+      "lastConnection": "Hace 1 min",
+      "avatarInitials": "EA",
+      "avatarBg": "bg-slate-500"
+    }
+  ],
+  "projects": [
+    {
+      "id": "las-palmas",
+      "code": "PRJ-2024-001",
+      "name": "Residencial Las Palmas",
+      "description": "Complejo habitacional multifamiliar de 12 niveles con certificación sostenible.",
+      "phaseName": "MODELADO BIM",
+      "responsible": "Ing. Roberto M.",
+      "responsibleAvatar": "https://lh3.googleusercontent.com/v1/placeholder-user-1.jpg",
+      "status": "En Curso",
+      "progress": 65,
+      "dueDate": "24/11/2024"
+    },
+    {
+      "id": "el-faro",
+      "code": "PRJ-2024-023",
+      "name": "Centro Comercial El Faro",
+      "description": "Ampliación del ala norte del mall comercial, integrando sistemas MEP inteligentes.",
+      "phaseName": "REVISIÓN",
+      "responsible": "Arq. Elena P.",
+      "responsibleAvatar": "https://lh3.googleusercontent.com/v1/placeholder-user-2.jpg",
+      "status": "Pendiente Approval",
+      "progress": 88,
+      "dueDate": "15/12/2024"
+    },
+    {
+      "id": "sigma",
+      "code": "PRJ-2023-118",
+      "name": "Torre Empresarial Sigma",
+      "description": "Estructura rascacielos corporativo con disipadores sísmicos adaptativos.",
+      "phaseName": "CIERRE",
+      "responsible": "Ing. Carlos T.",
+      "responsibleAvatar": "https://lh3.googleusercontent.com/v1/placeholder-user-1.jpg",
+      "status": "Completado",
+      "progress": 100,
+      "dueDate": "30/10/2023"
+    },
+    {
+      "id": "interconector-norte",
+      "code": "PRJ-2024-045",
+      "name": "Puente Interconector Norte",
+      "description": "Infraestructura vial de conexión metropolitana modelada íntegramente con gemelo digital.",
+      "phaseName": "LEVANTAMIENTO",
+      "responsible": "Alex Rivera",
+      "responsibleAvatar": "https://lh3.googleusercontent.com/v1/placeholder-user-2.jpg",
+      "status": "Retrasado",
+      "progress": 12,
+      "dueDate": "10/10/2024"
+    },
+    {
+      "id": "los-sauces",
+      "code": "PRJ-2410-09",
+      "name": "Residencial Los Sauces - Fase II",
+      "description": "Prototipo habitacional modular prefabricado de alta eficiencia térmica y acústica.",
+      "phaseName": "EJECUCIÓN",
+      "responsible": "Ing. Marta Sánchez",
+      "responsibleAvatar": "https://lh3.googleusercontent.com/v1/placeholder-user-1.jpg",
+      "status": "Ejecución",
+      "progress": 33,
+      "dueDate": "24/11/2024",
+      "team": []
+    },
+    {
+      "id": "prueba-1",
+      "code": "PRJ-2024-079",
+      "name": "prueba 1",
+      "description": "prueba",
+      "phaseName": "PLANIFICACIÓN",
+      "responsible": "Ing. Marta Sánchez",
+      "responsibleAvatar": "https://lh3.googleusercontent.com/v1/placeholder-user-1.jpg",
+      "status": "En Curso",
+      "progress": 0,
+      "dueDate": "24/11/2026"
+    },
+    {
+      "id": "aaaaaa",
+      "code": "PRJ-2024-065",
+      "name": "aaaaaa",
+      "description": "aaaaaa",
+      "phaseName": "PLANIFICACIÓN",
+      "responsible": "Ing. Marta Sánchez",
+      "responsibleAvatar": "https://lh3.googleusercontent.com/v1/placeholder-user-1.jpg",
+      "status": "En Curso",
+      "progress": 0,
+      "dueDate": "24/11/2024"
+    },
+    {
+      "id": "preuba-2",
+      "code": "PRJ-2024-061",
+      "name": "preuba 2",
+      "description": "a",
+      "phaseName": "PLANIFICACIÓN",
+      "responsible": "Ing. Marta Sánchez",
+      "responsibleAvatar": "https://lh3.googleusercontent.com/v1/placeholder-user-1.jpg",
+      "status": "En Curso",
+      "progress": 50,
+      "dueDate": "24/11/207",
+      "phases": [
+        {
+          "id": 1,
+          "name": "Planificación",
+          "status": "COMPLETED",
+          "dueDate": "12 Oct 2024",
+          "tasks": [
+            {
+              "id": "PH1-1",
+              "name": "Estudio de Impacto de Suelo",
+              "category": "Geotecnia",
+              "assignedTo": "Marta Sánchez",
+              "status": "Pending",
+              "dueDate": "10 Oct 25",
+              "phaseId": 1
+            },
+            {
+              "id": "PH1-2",
+              "name": "Reunión de kickoff y revisión del BEP",
+              "category": "Gobernanza",
+              "assignedTo": "Javier Solís",
+              "status": "Completed",
+              "dueDate": "12 Oct 25",
+              "phaseId": 1
+            },
+            {
+              "id": "TSK-350",
+              "name": "as",
+              "category": "Coordinación Fásica",
+              "assignedTo": "Elena P.",
+              "status": "Pending",
+              "dueDate": "30 Nov 2024",
+              "phaseId": 1
+            },
+            {
+              "id": "TSK-122",
+              "name": "d",
+              "category": "Coordinación Fásica",
+              "assignedTo": "Elena P.",
+              "status": "Completed",
+              "dueDate": "30 Nov 2024",
+              "phaseId": 1
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Diseño Conceptual",
+          "status": "IN_PROGRESS",
+          "dueDate": "20 Nov 2024",
+          "tasks": [
+            {
+              "id": "PH2-1",
+              "name": "Modelado BIM LOD 200 de Plantilla",
+              "category": "Arquitectura",
+              "assignedTo": "Elena P.",
+              "status": "Execution",
+              "dueDate": "18 Nov 25",
+              "phaseId": 2
+            },
+            {
+              "id": "PH2-2",
+              "name": "Coordinación volumétrica inicial",
+              "category": "Modelado",
+              "assignedTo": "Roberto M.",
+              "status": "Pending",
+              "dueDate": "20 Nov 25",
+              "phaseId": 2
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Diseño Detallado",
+          "status": "PENDING",
+          "dueDate": "15 Dec 2024",
+          "tasks": []
+        },
+        {
+          "id": 4,
+          "name": "Análisis e Integridad Sostenible",
+          "status": "PENDING",
+          "dueDate": "30 Dec 2024",
+          "tasks": []
+        },
+        {
+          "id": 5,
+          "name": "Construcción / Ejecución Campo",
+          "status": "PENDING",
+          "dueDate": "15 Feb 2025",
+          "tasks": []
+        },
+        {
+          "id": 6,
+          "name": "Operación y Mantenimiento (Gemelo Digital)",
+          "status": "PENDING",
+          "dueDate": "01 Apr 2025",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "prueba-3",
+      "code": "PRJ-2024-051",
+      "name": "prueba 4",
+      "description": "a",
+      "phaseName": "PLANIFICACIÓN",
+      "responsible": "Ing. Marta Sánchez",
+      "responsibleAvatar": "https://lh3.googleusercontent.com/v1/placeholder-user-1.jpg",
+      "status": "En Curso",
+      "progress": 0,
+      "dueDate": "24/11/2024",
+      "startDate": "01/01/2024",
+      "phases": [
+        {
+          "id": 1,
+          "name": "Planificación",
+          "status": "COMPLETED",
+          "dueDate": "12 Oct 2024",
+          "tasks": [
+            {
+              "id": "PH1-1",
+              "name": "Estudio de Impacto de Suelo",
+              "category": "Geotecnia",
+              "assignedTo": "Marta Sánchez",
+              "status": "Completed",
+              "dueDate": "10 Oct 25",
+              "phaseId": 1
+            },
+            {
+              "id": "PH1-2",
+              "name": "Reunión de kickoff y revisión del BEP",
+              "category": "Gobernanza",
+              "assignedTo": "Javier Solís",
+              "status": "Completed",
+              "dueDate": "12 Oct 25",
+              "phaseId": 1
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Diseño Conceptual",
+          "status": "IN_PROGRESS",
+          "dueDate": "20 Nov 2024",
+          "tasks": [
+            {
+              "id": "PH2-1",
+              "name": "Modelado BIM LOD 200 de Plantilla",
+              "category": "Arquitectura",
+              "assignedTo": "Elena P.",
+              "status": "Execution",
+              "dueDate": "18 Nov 25",
+              "phaseId": 2
+            },
+            {
+              "id": "PH2-2",
+              "name": "Coordinación volumétrica inicial",
+              "category": "Modelado",
+              "assignedTo": "Roberto M.",
+              "status": "Pending",
+              "dueDate": "20 Nov 25",
+              "phaseId": 2
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Diseño Detallado",
+          "status": "PENDING",
+          "dueDate": "15 Dec 2024",
+          "tasks": []
+        },
+        {
+          "id": 4,
+          "name": "Análisis e Integridad Sostenible",
+          "status": "PENDING",
+          "dueDate": "30 Dec 2024",
+          "tasks": []
+        },
+        {
+          "id": 5,
+          "name": "Construcción / Ejecución Campo",
+          "status": "PENDING",
+          "dueDate": "15 Feb 2025",
+          "tasks": []
+        },
+        {
+          "id": 6,
+          "name": "Operación y Mantenimiento (Gemelo Digital)",
+          "status": "PENDING",
+          "dueDate": "01 Apr 2025",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "prueba-3-b",
+      "code": "PRJ-2024-022",
+      "name": "prueba 3",
+      "description": "a",
+      "phaseName": "PLANIFICACIÓN",
+      "responsible": "Ing. Marta Sánchez",
+      "responsibleAvatar": "https://lh3.googleusercontent.com/v1/placeholder-user-1.jpg",
+      "status": "En Curso",
+      "progress": 0,
+      "dueDate": "24/11/2024"
+    },
+    {
+      "id": "prueba-5-",
+      "code": "PRJ-2024-035",
+      "name": "prueba 5 ",
+      "description": "a",
+      "phaseName": "PLANIFICACIÓN",
+      "responsible": "Ing. Marta Sánchez",
+      "responsibleAvatar": "https://lh3.googleusercontent.com/v1/placeholder-user-1.jpg",
+      "status": "En Curso",
+      "progress": 0,
+      "dueDate": "24/11/2024"
+    },
+    {
+      "id": "prueba-6",
+      "code": "PRJ-2024-065",
+      "name": "prueba 6",
+      "description": "a",
+      "phaseName": "PLANIFICACIÓN",
+      "responsible": "Ing. Marta Sánchez",
+      "responsibleAvatar": "https://lh3.googleusercontent.com/v1/placeholder-user-1.jpg",
+      "status": "En Curso",
+      "progress": 0,
+      "dueDate": "24/11/2024",
+      "phases": [
+        {
+          "id": 1,
+          "name": "Planificación",
+          "status": "COMPLETED",
+          "dueDate": "12 Oct 2024",
+          "tasks": [
+            {
+              "id": "PH1-1",
+              "name": "Estudio de Impacto de Suelo",
+              "category": "Geotecnia",
+              "assignedTo": "Marta Sánchez",
+              "status": "Completed",
+              "dueDate": "10 Oct 25",
+              "phaseId": 1
+            },
+            {
+              "id": "PH1-2",
+              "name": "Reunión de kickoff y revisión del BEP",
+              "category": "Gobernanza",
+              "assignedTo": "Javier Solís",
+              "status": "Pending",
+              "dueDate": "12 Oct 25",
+              "phaseId": 1
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Diseño Conceptual",
+          "status": "IN_PROGRESS",
+          "dueDate": "20 Nov 2024",
+          "tasks": [
+            {
+              "id": "PH2-1",
+              "name": "Modelado BIM LOD 200 de Plantilla",
+              "category": "Arquitectura",
+              "assignedTo": "Elena P.",
+              "status": "Pending",
+              "dueDate": "18 Nov 25",
+              "phaseId": 2
+            },
+            {
+              "id": "PH2-2",
+              "name": "Coordinación volumétrica inicial",
+              "category": "Modelado",
+              "assignedTo": "Roberto M.",
+              "status": "Pending",
+              "dueDate": "20 Nov 25",
+              "phaseId": 2
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Diseño Detallado",
+          "status": "PENDING",
+          "dueDate": "15 Dec 2024",
+          "tasks": []
+        },
+        {
+          "id": 4,
+          "name": "Análisis e Integridad Sostenible",
+          "status": "PENDING",
+          "dueDate": "30 Dec 2024",
+          "tasks": []
+        },
+        {
+          "id": 5,
+          "name": "Construcción / Ejecución Campo",
+          "status": "PENDING",
+          "dueDate": "15 Feb 2025",
+          "tasks": []
+        },
+        {
+          "id": 6,
+          "name": "Operación y Mantenimiento (Gemelo Digital)",
+          "status": "PENDING",
+          "dueDate": "01 Apr 2025",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "prueba-7",
+      "code": "PRJ-2026-490",
+      "name": "prueba 7",
+      "description": "a",
+      "phaseName": "PLANIFICACIÓN",
+      "responsible": "Arq. Javier Solis",
+      "responsibleAvatar": "https://lh3.googleusercontent.com/v1/placeholder-user-1.jpg",
+      "status": "En Curso",
+      "progress": 0,
+      "dueDate": "04/10/2026",
+      "phases": [
+        {
+          "id": 1,
+          "name": "Planificación",
+          "status": "COMPLETED",
+          "dueDate": "12 Oct 2026",
+          "tasks": [
+            {
+              "id": "PH1-1",
+              "name": "Estudio de Impacto de Suelo",
+              "category": "Geotecnia",
+              "assignedTo": "Ing. Marta Sánchez",
+              "status": "Completed",
+              "dueDate": "10 Oct 26",
+              "phaseId": 1
+            },
+            {
+              "id": "PH1-2",
+              "name": "Reunión de kickoff y revisión del BEP",
+              "category": "Gobernanza",
+              "assignedTo": "Ing. Roberto M.",
+              "status": "Completed",
+              "dueDate": "12 Oct 26",
+              "phaseId": 1
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Diseño Conceptual",
+          "status": "PENDING",
+          "dueDate": "20 Nov 2026",
+          "tasks": [
+            {
+              "id": "PH2-1",
+              "name": "Modelado BIM LOD 200 de Plantilla",
+              "category": "Arquitectura",
+              "assignedTo": "Arq. Elena P.",
+              "status": "Execution",
+              "dueDate": "18 Nov 26",
+              "phaseId": 2
+            },
+            {
+              "id": "PH2-2",
+              "name": "Coordinación volumétrica inicial",
+              "category": "Modelado",
+              "assignedTo": "Ing. Roberto M.",
+              "status": "Pending",
+              "dueDate": "20 Nov 26",
+              "phaseId": 2
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Diseño Detallado",
+          "status": "PENDING",
+          "dueDate": "15 Dec 2026",
+          "tasks": []
+        },
+        {
+          "id": 4,
+          "name": "Análisis e Integridad Sostenible",
+          "status": "PENDING",
+          "dueDate": "30 Dec 2026",
+          "tasks": []
+        },
+        {
+          "id": 5,
+          "name": "Construcción / Ejecución Campo",
+          "status": "PENDING",
+          "dueDate": "15 Feb 2027",
+          "tasks": []
+        },
+        {
+          "id": 6,
+          "name": "Operación y Mantenimiento (Gemelo Digital)",
+          "status": "PENDING",
+          "dueDate": "01 Apr 2027",
+          "tasks": []
+        }
+      ],
+      "startDate": "",
+      "bepCompliance": false,
+      "responsibleUserId": "usr-1"
+    },
+    {
+      "id": "prueba-8",
+      "code": "PRJ-2026-897",
+      "name": "prueba 8",
+      "description": "a",
+      "phaseName": "PLANIFICACIÓN",
+      "responsible": "Arq. Javier Solis",
+      "responsibleAvatar": "https://lh3.googleusercontent.com/v1/placeholder-user-1.jpg",
+      "status": "En Curso",
+      "progress": 0,
+      "dueDate": "04/10/2026",
+      "phases": [
+        {
+          "id": 1,
+          "name": "Planificación",
+          "status": "COMPLETED",
+          "dueDate": "12 Oct 2026",
+          "tasks": [
+            {
+              "id": "PH1-1",
+              "name": "Estudio de Impacto de Suelo",
+              "category": "Geotecnia",
+              "assignedTo": "Ing. Marta Sánchez",
+              "status": "Completed",
+              "dueDate": "10 Oct 26",
+              "phaseId": 1
+            },
+            {
+              "id": "PH1-2",
+              "name": "Reunión de kickoff y revisión del BEP",
+              "category": "Gobernanza",
+              "assignedTo": "Ing. Roberto M.",
+              "status": "Completed",
+              "dueDate": "12 Oct 26",
+              "phaseId": 1
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Diseño Conceptual",
+          "status": "IN_PROGRESS",
+          "dueDate": "20 Nov 2026",
+          "tasks": [
+            {
+              "id": "PH2-1",
+              "name": "Modelado BIM LOD 200 de Plantilla",
+              "category": "Arquitectura",
+              "assignedTo": "Arq. Elena P.",
+              "status": "Execution",
+              "dueDate": "18 Nov 26",
+              "phaseId": 2
+            },
+            {
+              "id": "PH2-2",
+              "name": "Coordinación volumétrica inicial",
+              "category": "Modelado",
+              "assignedTo": "Ing. Roberto M.",
+              "status": "Pending",
+              "dueDate": "20 Nov 26",
+              "phaseId": 2
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Diseño Detallado",
+          "status": "PENDING",
+          "dueDate": "15 Dec 2026",
+          "tasks": []
+        },
+        {
+          "id": 4,
+          "name": "Análisis e Integridad Sostenible",
+          "status": "PENDING",
+          "dueDate": "30 Dec 2026",
+          "tasks": []
+        },
+        {
+          "id": 5,
+          "name": "Construcción / Ejecución Campo",
+          "status": "PENDING",
+          "dueDate": "15 Feb 2027",
+          "tasks": []
+        },
+        {
+          "id": 6,
+          "name": "Operación y Mantenimiento (Gemelo Digital)",
+          "status": "PENDING",
+          "dueDate": "01 Apr 2027",
+          "tasks": []
+        }
+      ],
+      "responsibleUserId": "usr-1"
+    },
+    {
+      "id": "prueba-11",
+      "code": "PRJ-2026-575",
+      "name": "prueba 11",
+      "description": "a",
+      "phaseName": "PLANIFICACIÓN",
+      "responsible": "Arq. Javier Solis",
+      "responsibleAvatar": "https://lh3.googleusercontent.com/v1/placeholder-user-1.jpg",
+      "status": "En Curso",
+      "progress": 0,
+      "dueDate": "24/10/2026",
+      "phases": [
+        {
+          "id": 1,
+          "name": "Planificación y Programación",
+          "dueDate": "30/08/2026",
+          "status": "PENDIENTE"
+        },
+        {
+          "id": 2,
+          "name": "Diseño Conceptual y Espacial",
+          "dueDate": "30/09/2026",
+          "status": "PENDIENTE"
+        },
+        {
+          "id": 3,
+          "name": "Desarrollo de Especialidades",
+          "dueDate": "30/10/2026",
+          "status": "PENDIENTE"
+        },
+        {
+          "id": 4,
+          "name": "Coordinación y Compatibilización",
+          "dueDate": "30/11/2026",
+          "status": "PENDIENTE"
+        },
+        {
+          "id": 5,
+          "name": "Simulación 4D y Presupuesto 5D",
+          "dueDate": "30/12/2026",
+          "status": "PENDIENTE"
+        },
+        {
+          "id": 6,
+          "name": "Supervisión de Obra (As-Built)",
+          "dueDate": "30/01/2027",
+          "status": "PENDIENTE"
+        }
+      ],
+      "responsibleUserId": "usr-1"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "TSK-1783348878135-995",
+      "projectId": "prueba-11",
+      "name": "a",
+      "category": "Modelado BIM",
+      "assignedTo": "Arq. Javier Solis",
+      "status": "Pending",
+      "dueDate": "24/09/2026",
+      "phaseId": 1,
+      "priority": "Media",
+      "assignedUserId": "usr-1"
+    },
+    {
+      "id": "TSK-468",
+      "projectId": "prueba-7",
+      "name": "dsadsa",
+      "category": "Modelado BIM",
+      "assignedTo": "Arq. Javier Solis",
+      "status": "Pending",
+      "dueDate": "30 Nov 2026",
+      "phaseId": 1,
+      "assignedUserId": "usr-1"
+    },
+    {
+      "id": "TSK-375",
+      "projectId": "preuba-2",
+      "name": "d",
+      "category": "Modelado BIM",
+      "assignedTo": "Arq. Javier Solis",
+      "status": "Pending",
+      "dueDate": "30 Nov 2026",
+      "phaseId": 1,
+      "assignedUserId": "usr-1"
+    },
+    {
+      "id": "TSK-042",
+      "projectId": "los-sauces",
+      "name": "Modelado de Estructuras Nivel 4",
+      "category": "Componente Estructural",
+      "assignedTo": "Roberto M.",
+      "status": "Review",
+      "dueDate": "24 Oct 2026",
+      "phaseId": 1
+    },
+    {
+      "id": "TSK-045",
+      "projectId": "los-sauces",
+      "name": "Cálculo de Cargas MEP",
+      "category": "Ingeniería",
+      "assignedTo": "Elena P.",
+      "status": "Overdue",
+      "dueDate": "12 Jun 2026",
+      "phaseId": 1
+    },
+    {
+      "id": "TSK-048",
+      "projectId": "los-sauces",
+      "name": "Interferencias Arquitectónicas",
+      "category": "Coordinación",
+      "assignedTo": "Elena Rojas",
+      "status": "Completed",
+      "dueDate": "28 Oct 2026",
+      "phaseId": 1,
+      "priority": "Media",
+      "assignedUserId": "usr-4"
+    },
+    {
+      "id": "TSK-913",
+      "projectId": "prueba-1",
+      "name": "Configuración inicial de modelo federado",
+      "category": "Coordinación",
+      "assignedTo": "Javier Solis",
+      "status": "Pending",
+      "dueDate": "24/11/2026",
+      "phaseId": 1,
+      "assignedUserId": "usr-1"
+    },
+    {
+      "id": "TSK-430",
+      "projectId": "aaaaaa",
+      "name": "Configuración inicial de modelo federado",
+      "category": "Coordinación",
+      "assignedTo": "Javier Solis",
+      "status": "Pending",
+      "dueDate": "24/11/2024",
+      "phaseId": 1,
+      "assignedUserId": "usr-1"
+    },
+    {
+      "id": "TSK-122",
+      "projectId": "preuba-2",
+      "name": "Configuración inicial de modelo federado",
+      "category": "Coordinación",
+      "assignedTo": "Javier Solis",
+      "status": "Completed",
+      "dueDate": "24/11/207",
+      "phaseId": 1,
+      "assignedUserId": "usr-1"
+    },
+    {
+      "id": "TSK-590",
+      "projectId": "prueba-3",
+      "name": "Configuración inicial de modelo federado",
+      "category": "Coordinación",
+      "assignedTo": "Javier Solis",
+      "status": "Pending",
+      "dueDate": "24/11/2024",
+      "phaseId": 1,
+      "assignedUserId": "usr-1"
+    },
+    {
+      "id": "TSK-198",
+      "projectId": "prueba-3",
+      "name": "Configuración inicial de modelo federado",
+      "category": "Coordinación",
+      "assignedTo": "Javier Solis",
+      "status": "Pending",
+      "dueDate": "24/11/2024",
+      "phaseId": 1,
+      "assignedUserId": "usr-1"
+    },
+    {
+      "id": "TSK-780",
+      "projectId": "prueba-5-",
+      "name": "Configuración inicial de modelo federado",
+      "category": "Coordinación",
+      "assignedTo": "Javier Solis",
+      "status": "Pending",
+      "dueDate": "24/11/2024",
+      "phaseId": 1,
+      "assignedUserId": "usr-1"
+    },
+    {
+      "id": "TSK-930",
+      "projectId": "prueba-6",
+      "name": "Configuración inicial de modelo federado",
+      "category": "Coordinación",
+      "assignedTo": "Javier Solis",
+      "status": "Pending",
+      "dueDate": "24/11/2024",
+      "phaseId": 1,
+      "assignedUserId": "usr-1"
+    },
+    {
+      "id": "TSK-546",
+      "projectId": "prueba-7",
+      "name": "Configuración inicial de modelo federado",
+      "category": "Coordinación",
+      "assignedTo": "Javier Solis",
+      "status": "Pending",
+      "dueDate": "04/10/2026",
+      "phaseId": 1,
+      "assignedUserId": "usr-1"
+    },
+    {
+      "id": "TSK-561",
+      "projectId": "prueba-8",
+      "name": "Configuración inicial de modelo federado",
+      "category": "Coordinación",
+      "assignedTo": "Javier Solis",
+      "status": "Pending",
+      "dueDate": "04/10/2026",
+      "phaseId": 1,
+      "assignedUserId": "usr-1"
+    }
+  ],
+  "deliverables": [
+    {
+      "id": "del-1783348890810-775",
+      "projectId": "prueba-11",
+      "name": "PPP2-C2-PRA01-CV-ACOSTA ALVARADO EDUARDO JOEL.docx.docx",
+      "uploadedBy": "Arq. Javier Solis",
+      "uploadedAt": "06 jul 2026",
+      "lod": "LOD 400",
+      "status": "PENDIENTE",
+      "description": "a",
+      "dueDate": "15/12/2026",
+      "fileUrl": "/uploads/PPP2-C2-PRA01-CV-ACOSTA_ALVARADO_EDUARDO_JOEL.docx.docx",
+      "taskId": "TSK-1783348878135-995",
+      "phaseId": 1,
+      "uploadedByUserId": "usr-1"
+    },
+    {
+      "id": "del-1783348771537-702",
+      "projectId": "prueba-8",
+      "name": "PPP2-C2-PRA01-CV-ACOSTA ALVARADO EDUARDO JOEL.docx.docx",
+      "uploadedBy": "Arq. Javier Solis",
+      "uploadedAt": "06 jul 2026",
+      "lod": "LOD 400",
+      "status": "APROBADO",
+      "description": "a",
+      "dueDate": "15/12/2026",
+      "fileUrl": "/uploads/PPP2-C2-PRA01-CV-ACOSTA_ALVARADO_EDUARDO_JOEL.docx.docx",
+      "taskId": "TSK-561",
+      "phaseId": 1,
+      "history": [
+        {
+          "status": "APROBADO",
+          "reason": "",
+          "date": "6/7/2026 9:39:48 a. m.",
+          "user": "Arq. Javier Solis"
+        }
+      ],
+      "uploadedByUserId": "usr-1"
+    },
+    {
+      "id": "del-1",
+      "projectId": "los-sauces",
+      "name": "Diseño_Estructural_V2.rvt",
+      "uploadedBy": "Roberto M.",
+      "uploadedAt": "Hace 40 min",
+      "lod": "LOD 400",
+      "status": "PENDIENTE"
+    },
+    {
+      "id": "del-2",
+      "projectId": "los-sauces",
+      "name": "Planos_Instalaciones_MEP.dwg",
+      "uploadedBy": "Lucía M.",
+      "uploadedAt": "Ayer",
+      "lod": "LOD 350",
+      "status": "APROBADO",
+      "uploadedByUserId": "usr-2"
+    },
+    {
+      "id": "del-3",
+      "projectId": "los-sauces",
+      "name": "Modelo_Arquitectónico_Base.ifc",
+      "uploadedBy": "Alex Rivera",
+      "uploadedAt": "Hace 3 días",
+      "lod": "LOD 350",
+      "status": "RECHAZADO"
+    }
+  ],
+  "files": [
+    {
+      "id": "file-1783181118037",
+      "projectId": "preuba-2",
+      "name": "CV Documentado.pdf",
+      "size": "1.61 MB",
+      "url": "/uploads/CV Documentado.pdf",
+      "uploadedAt": "4/7/2026"
+    },
+    {
+      "id": "file-1",
+      "projectId": "los-sauces",
+      "name": "Presupuesto_Materiales_Central_V4.pdf",
+      "size": "1.8 MB",
+      "url": "/uploads/Presupuesto_Materiales_Central_V4.pdf",
+      "uploadedAt": "13 Jun 2026"
+    },
+    {
+      "id": "file-2",
+      "projectId": "los-sauces",
+      "name": "Especificaciones_Tecnicas_Licitacion.docx",
+      "size": "540 KB",
+      "url": "/uploads/Especificaciones_Tecnicas_Licitacion.docx",
+      "uploadedAt": "12 Jun 2026"
+    }
+  ],
+  "comments": [
+    {
+      "id": "comm-1",
+      "targetId": "TSK-045",
+      "author": "Elena Rojas",
+      "text": "¿Contamos con los planos de instalaciones sanitarias actualizados?",
+      "createdAt": "13 Jun 2026, 11:42"
+    },
+    {
+      "id": "comm-2",
+      "targetId": "del-1",
+      "author": "Lucía Mendoza",
+      "text": "Revisar espesores de placa en el eje 4, parece incongruente.",
+      "createdAt": "13 Jun 2026, 12:15"
+    },
+    {
+      "id": "comm-1783182850265",
+      "targetId": "TSK-930",
+      "author": "Arq. Javier Solis",
+      "text": "esta bien",
+      "createdAt": "4/7/2026, 04:34 p. m."
+    },
+    {
+      "id": "comm-1783348932762",
+      "targetId": "TSK-1783348878135-995",
+      "author": "Eduardo Acosta",
+      "text": "enviado archivo cv",
+      "createdAt": "6/7/2026, 02:42 p. m."
+    }
+  ],
+  "logs": [
+    {
+      "id": "log-1783357916376",
+      "time": "05:11 p. m. 6/7/2026",
+      "user": "Arq. Javier Solis",
+      "action": "Editó parámetros de tarea: \"Interferencias Arquitectónicas\"",
+      "detail": "Asignado: Elena Rojas | Fase ID: 1 | Prioridad: Media",
+      "ip": "127.0.0.1",
+      "type": "info"
+    },
+    {
+      "id": "log-1783356409798",
+      "time": "04:46 p. m.",
+      "user": "Administrador",
+      "action": "Modificó usuario: Alex Gil",
+      "detail": "Atributos actualizados por auditoría de roles.",
+      "ip": "127.0.0.1",
+      "type": "info"
+    },
+    {
+      "id": "log-1783354589625",
+      "time": "04:16 p. m.",
+      "user": "Administrador",
+      "action": "Eliminó usuario: prueba",
+      "detail": "Operación irreversible ejecutada por supervisor.",
+      "ip": "127.0.0.1",
+      "type": "error"
+    },
+    {
+      "id": "log-1783354418756",
+      "time": "04:13 p. m.",
+      "user": "Administrador",
+      "action": "Modificó usuario: eduardo acosta",
+      "detail": "Atributos actualizados por auditoría de roles.",
+      "ip": "127.0.0.1",
+      "type": "info"
+    },
+    {
+      "id": "log-1783354363172",
+      "time": "04:12 p. m.",
+      "user": "Administrador",
+      "action": "Modificó usuario: prueba",
+      "detail": "Atributos actualizados por auditoría de roles.",
+      "ip": "127.0.0.1",
+      "type": "info"
+    },
+    {
+      "id": "log-1783354354877",
+      "time": "04:12 p. m.",
+      "user": "Administrador",
+      "action": "Modificó usuario: prueba",
+      "detail": "Atributos actualizados por auditoría de roles.",
+      "ip": "127.0.0.1",
+      "type": "info"
+    },
+    {
+      "id": "log-1783354353316",
+      "time": "04:12 p. m.",
+      "user": "Administrador",
+      "action": "Modificó usuario: prueba",
+      "detail": "Atributos actualizados por auditoría de roles.",
+      "ip": "127.0.0.1",
+      "type": "info"
+    },
+    {
+      "id": "log-1783354346303",
+      "time": "04:12 p. m.",
+      "user": "Administrador",
+      "action": "Registró usuario: prueba",
+      "detail": "Rol: Gestor | Disciplina: Modelado BIM",
+      "ip": "127.0.0.1",
+      "type": "success"
+    },
+    {
+      "id": "log-1783354316258",
+      "time": "04:11 p. m.",
+      "user": "Administrador",
+      "action": "Modificó usuario: eduardo acosta",
+      "detail": "Atributos actualizados por auditoría de roles.",
+      "ip": "127.0.0.1",
+      "type": "info"
+    },
+    {
+      "id": "log-1783354315185",
+      "time": "04:11 p. m.",
+      "user": "Administrador",
+      "action": "Modificó usuario: Alex Gil",
+      "detail": "Atributos actualizados por auditoría de roles.",
+      "ip": "127.0.0.1",
+      "type": "info"
+    },
+    {
+      "id": "log-1783354313921",
+      "time": "04:11 p. m.",
+      "user": "Administrador",
+      "action": "Modificó usuario: Elena Rojas",
+      "detail": "Atributos actualizados por auditoría de roles.",
+      "ip": "127.0.0.1",
+      "type": "info"
+    },
+    {
+      "id": "log-1783354312156",
+      "time": "04:11 p. m.",
+      "user": "Administrador",
+      "action": "Modificó usuario: Lucía Mendoza",
+      "detail": "Atributos actualizados por auditoría de roles.",
+      "ip": "127.0.0.1",
+      "type": "info"
+    },
+    {
+      "id": "log-1783354310385",
+      "time": "04:11 p. m.",
+      "user": "Administrador",
+      "action": "Modificó usuario: Lucía Mendoza",
+      "detail": "Atributos actualizados por auditoría de roles.",
+      "ip": "127.0.0.1",
+      "type": "info"
+    },
+    {
+      "id": "log-1783354308754",
+      "time": "04:11 p. m.",
+      "user": "Administrador",
+      "action": "Modificó usuario: Elena Rojas",
+      "detail": "Atributos actualizados por auditoría de roles.",
+      "ip": "127.0.0.1",
+      "type": "info"
+    },
+    {
+      "id": "log-1783354306800",
+      "time": "04:11 p. m.",
+      "user": "Administrador",
+      "action": "Modificó usuario: Alex Gil",
+      "detail": "Atributos actualizados por auditoría de roles.",
+      "ip": "127.0.0.1",
+      "type": "info"
+    },
+    {
+      "id": "log-1783354274272",
+      "time": "04:11 p. m.",
+      "user": "Administrador",
+      "action": "Modificó usuario: eduardo acosta",
+      "detail": "Atributos actualizados por auditoría de roles.",
+      "ip": "127.0.0.1",
+      "type": "info"
+    },
+    {
+      "id": "log-1783354271662",
+      "time": "04:11 p. m.",
+      "user": "Administrador",
+      "action": "Modificó usuario: Carlos Vargas",
+      "detail": "Atributos actualizados por auditoría de roles.",
+      "ip": "127.0.0.1",
+      "type": "info"
+    },
+    {
+      "id": "log-1783354269810",
+      "time": "04:11 p. m.",
+      "user": "Administrador",
+      "action": "Modificó usuario: Carlos Vargas",
+      "detail": "Atributos actualizados por auditoría de roles.",
+      "ip": "127.0.0.1",
+      "type": "info"
+    },
+    {
+      "id": "log-1783353594170",
+      "time": "03:59 p. m. 6/7/2026",
+      "user": "Arq. Javier Solis",
+      "action": "Editó parámetros de tarea: \"Interferencias Arquitectónicas\"",
+      "detail": "Asignado: Alex Gil | Fase ID: 1 | Prioridad: Media",
+      "ip": "127.0.0.1",
+      "type": "info"
+    },
+    {
+      "id": "log-1783353580099",
+      "time": "03:59 p. m. 6/7/2026",
+      "user": "Arq. Javier Solis",
+      "action": "Retiró a Arq. Javier Solis del equipo coordinado",
+      "detail": "Proyecto: Residencial Los Sauces - Fase II",
+      "ip": "127.0.0.1",
+      "type": "info"
+    },
+    {
+      "id": "log-1783353576856",
+      "time": "03:59 p. m. 6/7/2026",
+      "user": "Arq. Javier Solis",
+      "action": "Agregó a Arq. Javier Solis al equipo de coordinación",
+      "detail": "Rol asignado: Líder BIM",
+      "ip": "127.0.0.1",
+      "type": "success"
+    },
+    {
+      "id": "log-1783350294518",
+      "time": "03:04 p. m.",
+      "user": "Arq. Javier Solis",
+      "action": "Inició sesión en la plataforma",
+      "detail": "Role: Administrador | Acceso exitoso legal.",
+      "ip": "127.0.0.1",
+      "type": "success"
+    },
+    {
+      "id": "log-1783349237026",
+      "time": "02:47 p. m.",
+      "user": "Administrador",
+      "action": "Registró usuario: eduardo acosta",
+      "detail": "Rol: Colaborador | Disciplina: Ingeniería Civil",
+      "ip": "127.0.0.1",
+      "type": "success"
+    },
+    {
+      "id": "log-1783349121607",
+      "time": "02:45 p. m.",
+      "user": "Administrador",
+      "action": "Registró usuario: Alex Gil",
+      "detail": "Rol: Colaborador | Disciplina: Ingeniería Civil",
+      "ip": "127.0.0.1",
+      "type": "success"
+    },
+    {
+      "id": "log-1783348932991",
+      "time": "02:42 p. m. 6/7/2026",
+      "user": "Eduardo Acosta",
+      "action": "Comentó sobre la tarea: \"a\"",
+      "detail": "Mensaje: enviado archivo cv...",
+      "ip": "127.0.0.1",
+      "type": "info"
+    },
+    {
+      "id": "log-1783348891039",
+      "time": "02:41 p. m. 6/7/2026",
+      "user": "Eduardo Acosta",
+      "action": "Subió y registró entregable: \"PPP2-C2-PRA01-CV-ACOSTA ALVARADO EDUARDO JOEL.docx.docx\"",
+      "detail": "Exigencia BIM: LOD 400 | Fecha límite acordada: 15/12/2026",
+      "ip": "127.0.0.1",
+      "type": "success"
+    },
+    {
+      "id": "log-1783348878360",
+      "time": "02:41 p. m. 6/7/2026",
+      "user": "Eduardo Acosta",
+      "action": "Creó nueva tarea: \"a\"",
+      "detail": "Fase ID: 1 | Disciplina: Modelado BIM | Responsable: Arq. Javier Solis",
+      "ip": "127.0.0.1",
+      "type": "success"
+    },
+    {
+      "id": "log-1783348786312",
+      "time": "02:39 p. m. 6/7/2026",
+      "user": "Eduardo Acosta",
+      "action": "Cambió estado de entregable a: \"APROBADO\"",
+      "detail": "Entregable: \"PPP2-C2-PRA01-CV-ACOSTA ALVARADO EDUARDO JOEL.docx.docx\"",
+      "ip": "127.0.0.1",
+      "type": "success"
+    },
+    {
+      "id": "log-1783348786084",
+      "time": "02:39 p. m.",
+      "user": "Usuario",
+      "action": "Entregable APROBADO: \"PPP2-C2-PRA01-CV-ACOSTA ALVARADO EDUARDO JOEL.docx.docx\"",
+      "detail": "Proyecto: prueba-8",
+      "ip": "127.0.0.1",
+      "type": "success"
+    },
+    {
+      "id": "log-1783348771819",
+      "time": "02:39 p. m. 6/7/2026",
+      "user": "Eduardo Acosta",
+      "action": "Subió y registró entregable: \"PPP2-C2-PRA01-CV-ACOSTA ALVARADO EDUARDO JOEL.docx.docx\"",
+      "detail": "Exigencia BIM: LOD 400 | Fecha límite acordada: 15/12/2026",
+      "ip": "127.0.0.1",
+      "type": "success"
+    },
+    {
+      "id": "log-1783186430673",
+      "time": "05:33 p. m. 4/7/2026",
+      "user": "Arq. Javier Solis",
+      "action": "Configuró fases para el proyecto: \"prueba 8\"",
+      "detail": "Se estructuraron 6 fases de ciclo de vida con checklists operativos.",
+      "ip": "127.0.0.1",
+      "type": "success"
+    },
+    {
+      "id": "log-1783185340376",
+      "time": "05:15 p. m. 4/7/2026",
+      "user": "Arq. Javier Solis",
+      "action": "Modificó proyecto: \"prueba 7\"",
+      "detail": "Fijó responsable a: Arq. Javier Solis | Estado: En Curso",
+      "ip": "127.0.0.1",
+      "type": "info"
+    },
+    {
+      "id": "log-1783185312861",
+      "time": "05:15 p. m. 4/7/2026",
+      "user": "Arq. Javier Solis",
+      "action": "Asignó nueva tarea: \"dsadsa\"",
+      "detail": "Categoría: Modelado BIM | Responsable inicial: Arq. Javier Solis",
+      "ip": "127.0.0.1",
+      "type": "success"
+    },
+    {
+      "id": "log-1783185305241",
+      "time": "05:15 p. m. 4/7/2026",
+      "user": "Arq. Javier Solis",
+      "action": "Configuró fases para el proyecto: \"prueba 7\"",
+      "detail": "Se estructuraron 6 fases de ciclo de vida con checklists operativos.",
+      "ip": "127.0.0.1",
+      "type": "success"
+    },
+    {
+      "id": "log-1783182850493",
+      "time": "04:34 p. m. 4/7/2026",
+      "user": "Arq. Javier Solis",
+      "action": "Comentó sobre la tarea: \"Configuración inicial de modelo federado\"",
+      "detail": "Mensaje: esta bien...",
+      "ip": "127.0.0.1",
+      "type": "info"
+    },
+    {
+      "id": "log-1783182680732",
+      "time": "04:31 p. m. 4/7/2026",
+      "user": "Arq. Javier Solis",
+      "action": "Configuró fases para el proyecto: \"prueba 6\"",
+      "detail": "Se estructuraron 6 fases de ciclo de vida con checklists operativos.",
+      "ip": "127.0.0.1",
+      "type": "success"
+    },
+    {
+      "id": "log-1783181948870",
+      "time": "04:19 p. m. 4/7/2026",
+      "user": "Arq. Javier Solis",
+      "action": "Configuró fases para el proyecto: \"prueba 4\"",
+      "detail": "Se estructuraron 6 fases de ciclo de vida con checklists operativos.",
+      "ip": "127.0.0.1",
+      "type": "success"
+    },
+    {
+      "id": "log-1783181413089",
+      "time": "04:10 p. m. 4/7/2026",
+      "user": "Arq. Javier Solis",
+      "action": "Modificó proyecto: \"prueba 4\"",
+      "detail": "Fijó responsable a: Ing. Marta Sánchez | Estado: En Curso",
+      "ip": "127.0.0.1",
+      "type": "info"
+    },
+    {
+      "id": "log-1783181167925",
+      "time": "04:06 p. m. 4/7/2026",
+      "user": "Arq. Javier Solis",
+      "action": "Asignó nueva tarea: \"d\"",
+      "detail": "Categoría: Modelado BIM | Responsable inicial: Arq. Javier Solis",
+      "ip": "127.0.0.1",
+      "type": "success"
+    },
+    {
+      "id": "log-1783181161720",
+      "time": "04:06 p. m. 4/7/2026",
+      "user": "Arq. Javier Solis",
+      "action": "Completó la tarea: \"Configuración inicial de modelo federado\"",
+      "detail": "Estado: Completed | ID: TSK-122",
+      "ip": "127.0.0.1",
+      "type": "success"
+    },
+    {
+      "id": "log-1783181118273",
+      "time": "04:05 p. m. 4/7/2026",
+      "user": "Arq. Javier Solis",
+      "action": "Subió archivo de apoyo: \"CV Documentado.pdf\"",
+      "detail": "Tamaño: 1.61 MB | Redundancia Google Drive iniciada exitosamente",
+      "ip": "127.0.0.1",
+      "type": "success"
+    },
+    {
+      "id": "log-drive-1783181118037",
+      "user": "Nube Google Drive Sync",
+      "action": "Guardado redundante exitoso: \"CV Documentado.pdf\" en Google Drive con ID gdrive_1783181118037",
+      "time": "4/7/2026 4:05:18 p. m."
+    },
+    {
+      "id": "log-1783181085229",
+      "time": "04:04 p. m. 4/7/2026",
+      "user": "Arq. Javier Solis",
+      "action": "Configuró fases para el proyecto: \"preuba 2\"",
+      "detail": "Se estructuraron 6 fases de ciclo de vida con checklists operativos.",
+      "ip": "127.0.0.1",
+      "type": "success"
+    },
+    {
+      "id": "log-1",
+      "time": "14:22",
+      "user": "Alejandro Arango",
+      "action": "cambió el rol de Lucía Mendoza a Gestor",
+      "detail": "Origen: IP 192.168.1.45 (Lima, PE)",
+      "ip": "192.168.1.45",
+      "type": "info"
+    },
+    {
+      "id": "log-2",
+      "time": "13:05",
+      "user": "Sistema",
+      "action": "Nuevo usuario Elena Rojas registrado en el sistema",
+      "detail": "Método: Invitación vía Email por Admin.",
+      "ip": "192.168.1.4",
+      "type": "success"
+    }
+  ],
+  "disciplines": [
+    "Modelado BIM",
+    "Ingeniería Civil",
+    "Arquitectura",
+    "Instalaciones MEP",
+    "Gestión de Proyectos"
+  ]
+}

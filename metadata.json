@@ -1,0 +1,6 @@
+{
+  "name": "GMP BIM Project Manager",
+  "description": "Plataforma avanzada de gestión, control de ciclo de vida y reportes de proyectos BIM integrada con el ecosistema GMP.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
